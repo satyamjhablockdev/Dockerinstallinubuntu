@@ -12,7 +12,24 @@
 
 ---
 
+## 🛠️ Pre-requirements
 
+Before running the installation commands, ensure you have:
+
+* **Ubuntu** (tested on 20.04 and above)
+* `sudo` privileges
+* Internet connectivity
+* `jq` installed (needed to parse the latest Docker Compose version during install)
+
+**Install jq (if not already installed)**
+
+```bash
+sudo apt update && sudo apt install -y jq
+```
+**Check version**
+```
+jq --version
+```
 ## 🚀 Quick start (Ubuntu)
 
 > **Heads up:** Run this on **Ubuntu** with `sudo` privileges. The script enables the Docker daemon and adds your user to the `docker` group.
