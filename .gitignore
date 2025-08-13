@@ -1,0 +1,12 @@
+# Editor & OS junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs & dumps
+logs/
+*.log
+
+# Misc
+.env
